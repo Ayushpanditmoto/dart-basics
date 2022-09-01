@@ -19,4 +19,6 @@ void main() {
   print(name.indexOf("ayush"));
   name.insert(1, "rasumi");
   print(name);
+  name.shuffle();
+  print(name);
 }
